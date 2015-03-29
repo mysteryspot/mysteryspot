@@ -1,0 +1,15 @@
+<div class="article-container">
+  <article>
+    <header>
+      <h2><%= link_to article.title, article %></h2>
+    </header>
+    <section class="article-body">
+      <%= article.body %>
+      <!-- use article.summary(250) if you have Nokogiri available to show just
+           the first 250 characters -->
+    </section>
+    <footer>
+      <span><%= article.date.strftime('%A, %B %e, %Y') %></span>
+    </footer>
+  </article>
+</div>
