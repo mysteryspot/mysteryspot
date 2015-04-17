@@ -1,14 +1,16 @@
 .header-container {
   margin: 0;
-}
 
-header {
-  margin: 0 auto em(30);
-  padding: 1em;
-  text-align: center;
-  ul {
-    display: inline-block;
-    margin-bottom: em(10);
+  header {
+    margin: 0 auto em(30);
+    padding: 3em 0 1em;
+    h1, h1 a {
+      color: #333;
+    }
+    ul {
+      display: inline-block;
+      margin-bottom: em(10);
+    }
   }
 }
 

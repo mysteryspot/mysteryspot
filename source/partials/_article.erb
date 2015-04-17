@@ -1,15 +1,13 @@
-<div class="article-container">
-  <article>
+<div class="article-container <% if article.data.article_layout? %><%= article.data.article_layout %><% else %>text<% end %>">
+  <article class="type-system-serif">
     <header>
-      <h2><%= link_to article.title, article %></h2>
+      <h1><%= link_to article.title, article %></h1>
+      <p class="date"><%= article.date.strftime('%A, %B %e, %Y') %></p>
     </header>
     <section class="article-body">
       <%= article.body %>
       <!-- use article.summary(250) if you have Nokogiri available to show just
            the first 250 characters -->
     </section>
-    <footer>
-      <span><%= article.date.strftime('%A, %B %e, %Y') %></span>
-    </footer>
   </article>
 </div>
