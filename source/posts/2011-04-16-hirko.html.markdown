@@ -1,0 +1,9 @@
+---
+title: Riley
+date: 2011-04-16
+tags: example
+---
+
+<div style="text-align: center;">
+  <img src="/images/riley.jpg">
+</div>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>2012-01-01-example-article.html.markdown</string>
+		</array>
+		<array>
+			<string>2014-12-16-all-the-animals-i-ever-knew.md</string>
+		</array>
+	</array>
+	<key>userIconName</key>
+	<string>Radio</string>
+</dict>
+</plist>
